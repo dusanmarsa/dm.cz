@@ -1,6 +1,6 @@
 <template>
   <div class="container px-8 sm:mx-auto w-full max-w-screen-md mt-8 md:mt-40">
-    <div class="mb-4">
+    <div class="mb-8">
       <Theme />
     </div>
     <div class="flex items-center flex-wrap gap-4 text-slate-800 dark:text-white mb-10 text-md">
