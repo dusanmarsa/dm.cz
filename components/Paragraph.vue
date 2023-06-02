@@ -6,25 +6,25 @@
 
 <script lang="ts">
 export default {
-  props: {
+  props: { 
     weight: String,
   },
 };
 </script>
 
 <style scoped>
-  p /deep/ b {
-    color: #334155;
-  }
+p :deep(b) {
+  color: #334155;
+}
 
-  p /deep/ strong {
-    color: #1e293b;
-  }
-  .dark p /deep/ b {
-    color: #cbd5e1;
-  }
+p :deep(strong) {
+  color: #1e293b;
+}
+.dark p :deep(b) {
+  color: #cbd5e1;
+}
 
-  .dark p /deep/ strong {
-    color: #cbd5e1;
-  }
+.dark p :deep(strong) {
+  color: #cbd5e1;
+}
 </style>

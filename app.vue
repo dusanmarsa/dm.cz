@@ -3,7 +3,7 @@
     <div class="mb-8">
       <Theme />
     </div>
-    <div class="flex items-center flex-wrap gap-4 text-slate-800 dark:text-white mb-10 text-md">
+    <!-- <div class="flex items-center flex-wrap gap-4 text-slate-800 dark:text-white mb-10 text-md">
       <NuxtLink 
         to="/" 
         class="flex items-center gap-1 font-medium">
@@ -22,7 +22,7 @@
         <span class="text-cyan-500 dark:text-cyan-300">03.</span>
         <span>Contact</span>
       </NuxtLink>
-    </div>
+    </div> -->
     <NuxtPage />
   </div>
   
