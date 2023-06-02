@@ -3,6 +3,7 @@
     <Icon
       class="transition-colors duration-150 dark:text-white"
       :name="$colorMode.preference === 'light' ? 'carbon:moon' : 'carbon:sun'"
+      size="24"
     />
   </div>
 </template>

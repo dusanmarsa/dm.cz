@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-8 sm:mx-auto w-full max-w-screen-md mt-8 md:mt-40">
+  <div class="container px-8 sm:mx-auto w-full max-w-screen-md py-8 md:pt-40">
     <div class="mb-8">
       <Theme />
     </div>
@@ -72,4 +72,29 @@ body {
   );
   background-attachment: fixed;
 }
+
+h1 {
+  font-size: 3.052rem;
+  font-weight: bold;
+  line-height: 48.83px;
+}
+
+h2 {
+  font-size: 2.441rem;
+  font-weight: bold;
+  line-height: 39.06px;
+}
+
+h3 {
+  font-size: 1.953rem;
+  font-weight: bold;
+  line-height: 31.25px;
+}
+
+h4 {
+  font-size: 1.563rem;
+  font-weight: bold;
+  line-height: 25.00px;
+}
+
 </style>

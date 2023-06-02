@@ -11,7 +11,7 @@ export default {
   },
   computed: {
     cssProps() {
-        return `text-4xl text-slate-900 tracking-wider dark:text-slate-100 ${this.customClass}`
+        return `text-slate-900 mt-10 mb-2 tracking-wider dark:text-slate-100 ${this.customClass}`
     }
   }
 };
