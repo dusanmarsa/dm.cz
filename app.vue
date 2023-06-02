@@ -3,7 +3,48 @@
     <div class="mb-8">
       <Theme />
     </div>
-    <!-- <div class="flex items-center flex-wrap gap-4 text-slate-800 dark:text-white mb-10 text-md">
+    <div>
+      <Heading custom-class="font-extrabold">
+        <h1 class="select-none">Dušan Marsa 👨‍💻</h1>
+      </Heading>
+      <p>
+        <strong>TypeScript developer</strong> - based in the
+        <b>Czech Republic</b>, working <b>Remote</b>.
+      </p>
+      <p>
+        I started my journey by building few static websites in HTML, CSS and
+        have since developed a passion for TypeScript and Fullstack development.
+        And I am trying to keep up-to-date by reading articles online, following
+        much more experienced developers, and subscribing to bunch of
+        newsletters.
+      </p>
+      <p>
+        I am open with technologies that I need to use, there is always the
+        right one for the specific task. But currently I stick with the proven
+        few, such as <b>TypeScript</b>, <b>React</b>, and<b>Next.js</b>.
+      </p>
+      <p>
+        <Heading>
+          <h3>Looking for me?</h3>
+        </Heading>
+        Sometimes I am at
+        <Button to="https://www.linkedin.com/in/dusanmarsa/" target="_blank"
+          >LinkedIn</Button
+        >, sometimes browsing through
+        <Button to="https://github.com/dusanmarsa" target="_blank"
+          >Github</Button
+        >, and you can reach me on
+        <Button to="mailto:dusanmarsa99@gmail.com"
+          >Gmail (dusanmarsa99@gmail.com)</Button
+        >
+        too. Just please don't drop by my house unannounced - I'm probably in
+        the zone!
+      </p>
+    </div>
+  </div>
+</template>
+
+<!-- <div class="flex items-center flex-wrap gap-4 text-slate-800 dark:text-white mb-10 text-md">
       <NuxtLink 
         to="/" 
         class="flex items-center gap-1 font-medium">
@@ -22,11 +63,7 @@
         <span class="text-cyan-500 dark:text-cyan-300">03.</span>
         <span>Contact</span>
       </NuxtLink>
-    </div> -->
-    <NuxtPage />
-  </div>
-  
-</template>
+  </div> -->
 
 <style>
 .page-enter-active,
@@ -47,7 +84,21 @@
 body {
   font-family: Inter;
   /* background: #f3f4f6; */
-  background-image: linear-gradient(to right top, #ffffff, #fdfdfd, #fbfbfc, #f8f9fa, #f6f7f8, #f6f7f8, #f6f7f8, #f6f7f8, #f8f9fa, #fbfbfc, #fdfdfd, #ffffff);
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #fdfdfd,
+    #fbfbfc,
+    #f8f9fa,
+    #f6f7f8,
+    #f6f7f8,
+    #f6f7f8,
+    #f6f7f8,
+    #f8f9fa,
+    #fbfbfc,
+    #fdfdfd,
+    #ffffff
+  );
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -94,7 +145,25 @@ h3 {
 h4 {
   font-size: 1.563rem;
   font-weight: bold;
-  line-height: 25.00px;
+  line-height: 25px;
 }
 
+p {
+  @apply mt-4 text-slate-700 text-justify leading-loose dark:text-slate-400;
+}
+
+p > b {
+  color: #334155;
+}
+
+p > strong {
+  color: #1e293b;
+}
+.dark p > b {
+  color: #cbd5e1;
+}
+
+.dark p > strong {
+  color: #cbd5e1;
+}
 </style>
