@@ -1,25 +1,30 @@
 <template>
   <div>
     <Heading custom-class="font-extrabold">
-      <h2><small>{{ "<" }}</small>Dušan Marsa 👨‍💻 <small>{{ " />" }}</small></h2>
+      <h1 class="select-none">
+        <small>{{ "<" }}</small
+        >Dušan Marsa 👨‍💻 <small>{{ " />" }}</small>
+      </h1>
     </Heading>
     <Paragraph>
-      Currencly I am called <b>TypeScript developer</b>, and I am based in the <b>Czech Republic</b>.
+      Currently I am called <strong>TypeScript developer</strong>, and I am based in the
+      <b>Czech Republic</b>.
     </Paragraph>
     <Paragraph>
       I started my journey by building few static websites in HTML, CSS and have
-      since developed a passion for TypeScript 
-      and fullstack development. And I am trying to
-      keep up-to-date by reading articles online, following much more
-      experienced developers, and subscribing to bunch of newsletters.
-      <Button to="/about">What do i do?</Button>
+      since developed a passion for TypeScript and Fullstack development. And I
+      am trying to keep up-to-date by reading articles online, following much
+      more experienced developers, and subscribing to bunch of newsletters.
+      <Button to="/coding">What do i do?</Button>
     </Paragraph>
     <Paragraph>
       <Heading>
-        <h4>The proven trinity</h4>
+        <h3>Looking for me?</h3>
       </Heading>
-      I have tried few frameworks, and tools over the years. But currently 
-      I stick with the proven few, such as <b>TypeScript</b>, <b>React</b>, and <b>Next.js</b>.
+      Sometimes I am <Button to="https://www.linkedin.com/in/dusanmarsa/" target="_blank">LinkedIn</Button>,
+      someimes browsing through <Button to="https://github.com/dusanmarsa" target="_blank">Github</Button>, and in rare occasions
+      you can reach me at <Button to="mailto:dusanmarsa99@gmail.com">Gmail (dusanmarsa99@gmail.com)</Button>. 
+      Just please don't drop by my house unannounced - I'm probably in the zone!
     </Paragraph>
   </div>
 </template>

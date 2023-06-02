@@ -1,6 +1,7 @@
 <template>
   <NuxtLink
-    class="text-slate-800 font-semibold border-b border-b-slate-300 hover:border-slate-800 dark:border-b-slate-500 dark:hover:border-b-slate-300 transition-colors dark:text-slate-100"
+    
+    class="text-slate-800 font-semibold border-b border-b-neutral-500 dark:border-b-neutral-300 dark:text-slate-100"
     :to="to"
   >
     <slot />
@@ -10,7 +11,7 @@
 <script lang="ts">
 export default {
   props: {
-    to: String,
+    to: String
   },
 };
 </script>

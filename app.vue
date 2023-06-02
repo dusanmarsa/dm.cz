@@ -11,10 +11,10 @@
         <span>Home</span>
       </NuxtLink>
       <NuxtLink 
-        to="/about" 
+        to="/coding" 
         class="flex items-center gap-1 font-medium">
         <span class="text-cyan-500 dark:text-cyan-300">02.</span>
-        <span>About</span>
+        <span>Coding</span>
       </NuxtLink>
       <NuxtLink 
         to="/" 
