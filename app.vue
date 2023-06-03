@@ -104,7 +104,22 @@ body {
 
 .dark body {
   background: #050505;
-
+  /* background-image: linear-gradient(
+    to right top,
+    #050505,
+    #0c0c0d,
+    #111112,
+    #161517,
+    #1a191b,
+    #1a191b,
+    #1a191b,
+    #1a191b,
+    #161517,
+    #111112,
+    #0c0c0d,
+    #050505
+  );
+  background-attachment: fixed; */
 }
 
 h1 {
