@@ -6,16 +6,22 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
+    "lintfix": "yarn lint --fix"
   },
+  "dependencies": {},
   "devDependencies": {
+    "@antfu/eslint-config": "^0.39.4",
     "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/google-fonts": "^3.0.1",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@types/node": "^18",
+    "eslint": "^8.42.0",
     "nuxt": "^3.5.2",
-    "nuxt-icon": "^0.4.1"
-  },
-  "dependencies": {
+    "nuxt-icon": "^0.4.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.0"
   }
 }
